@@ -1,7 +1,7 @@
 field,index,display
 title,true,true
-date,true,true
-creator,true,false
-description,true,true
-subject,true,true
+date_start,true,true
+proprietor,true,false
 location,true,false
+address,true,false
+HoMER_venue,true,false

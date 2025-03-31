@@ -1,5 +1,6 @@
 field,display_name
-title,Title
-date,Date
-description,Description
-subject,Subjects
+title,Site
+location,City
+date_start,Date Opened
+proprietor,Proprietor
+HoMER_venue,HoMER Venue

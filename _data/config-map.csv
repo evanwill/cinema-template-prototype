@@ -1,5 +1,6 @@
 field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
+date_start,Date Opened,true
+proprietor,Proprietor,true
+HoMER_venue,HoMER Venue,true
+address,Address,true
 location,Location,true

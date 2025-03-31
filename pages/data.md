@@ -4,7 +4,7 @@ layout: data
 permalink: /data.html
 ---
 
-## Collection Metadata
+## Cinema Site Directory
 
 The table below provides sorting and basic search of the collection contents. 
 Use the "CSV" button below to download the filtered metadata you see on the page. 

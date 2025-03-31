@@ -1,6 +1,7 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
+date_start,Date Opened,,,Date
+proprietor,Proprietor,,,
+address,Address,,
+location,Location,true,,Location
+HoMER_venue,HoMER Venue,
 identifier,,,true,Identifier
