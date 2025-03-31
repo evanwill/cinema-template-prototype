@@ -48,7 +48,7 @@
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
-    Esri_WorldImagery.addTo(map);
+    Esri_WorldStreetMap.addTo(map);
     /* add fullscreen control */ 
     map.addControl(new L.Control.Fullscreen());
     {% unless include.map-marker == false %}

@@ -1,15 +1,11 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Name,,,DCTERMS.title,headline
+address,Address,,,,
+location,Location,true,,,contentLocation
 date_start,Date Opened,,,DCTERMS.date,dateCreated
 date_end,Date Closed,
 date_text,Date,
-HoMER_venue,HoMER Venue,,,,
+HoMER_venue,HoMER Venue Type,true,,,
 proprietor,Proprietor,
 description,Description,,,DCTERMS.description,description
 seats_number,Number of Seats,,,,
-address,Address,,,,
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-format,Format,,,,encodingFormat
