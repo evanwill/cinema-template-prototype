@@ -45,6 +45,9 @@ metadata: icp
 #     extension: 'html' 
 #     filter: 'objectid'  
 
+collections:
+  - descriptions
+  
 ##########
 # Site/Organization Branding 
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo

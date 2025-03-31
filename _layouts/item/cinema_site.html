@@ -33,6 +33,13 @@ gallery: true
             <a href="{{ '/map.html?location=' | append: page.latitude  | append: ',' | append: page.longitude | append: '&marker=' | append: page.objectid | relative_url }}" class="btn btn-outline-primary my-3">View on Full Map</a>{% endif %}
         </div>
 
+        <div class="col-12 col-md-9">
+            {% if page.description_file %}
+            {% assign narrative = site.descriptions | where: "slug", page.description_file | first %}
+            <h2>{{ narrative.title }}</h2>
+            {{ narrative.output }}
+            {% endif %}
+        </div>
         <div class="col-12 col-md-10">
             <div class="my-4 text-center">
                 <h2 class="mb-4">Archival Materials</h2>
