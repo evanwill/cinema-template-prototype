@@ -35,9 +35,11 @@ gallery: true
 
         <div class="col-12 col-md-9">
             {% if page.description_file %}
-            {% assign narrative = site.descriptions | where: "slug", page.description_file | first %}
-            <h2>{{ narrative.title }}</h2>
-            {{ narrative.output }}
+            <div class="card card-body">
+                {% assign narrative = site.descriptions | where: "slug", page.description_file | first %}
+                <h2>{{ narrative.title }}</h2>
+                {{ narrative.output }}
+            </div>
             {% endif %}
         </div>
         <div class="col-12 col-md-10">
